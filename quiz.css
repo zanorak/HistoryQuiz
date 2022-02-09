@@ -1,0 +1,38 @@
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.nav {
+  margin: auto;
+	width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin: auto;
+	width: 60%;
+	height: 300px;
+}
+
+.card .front {
+	text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size: 30px;
+	font-weight: 200;
+	background-color: lightblue;
+}
+
+.card .back{
+	text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size: 30px;
+	font-weight: 200;
+	background-color: #eee;
+}
+
