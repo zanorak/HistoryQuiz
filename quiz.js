@@ -18,5 +18,20 @@ $(document).ready(function(){
       }
     });
   });
+  
+  $('#prev').on('click', function() {
+    $('#cards>div').each(function() {
+      var id = $(this).index();
+      if ($(this).is(':visible')) {
+        $(this).hide();
+        if (id == 0) {
+          $('#cards>div').last().show();
+        } else {
+          $('#cards>div').eq(id - 1).show();
+        }
+        return false;
+      }
+    });
+  });
 
 });
